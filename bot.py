@@ -1,5 +1,9 @@
 # bot.py — Полный бот по "Структура меню и сценариев 1 (защищено)"
 import os
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+
+
 import re
 import json
 import sqlite3
